@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+section {
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  border-bottom: 2px solid black;
+  position: fixed;
+  background-color: black;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-logo {
+  display: flex;
+  margin-right: 900px;
+  padding-left: 20px;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+  margin-right: 150px;
+  margin-top: 5px;
+}
+
+.nav-bar {
+  background-color: white;
+  border-radius: 2px;
+  width: 100px;
+  height: 20px;
+  padding: 8px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: gray;
+}
+
+#home-img {
+  width: 1366px;
+  height: 578;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+
+#homepage {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+#homepage>h1 {
+  text-align: left;
+}
+
+#profilepage,
+#portfolio,
+#messagepage {
+  padding-top: 45px;
+}
+
+#profilepage {
+  border-bottom: 2px solid black;
+}
+
+
+#profilepage>p {
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
+.photo-container {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#photo-profile {
+  height: 250px;
+  width: 250px;
+  border: 5px solid black;
+  border-radius: 50%;
+
+}
+
+.profile-summary {
+  margin-left: 180px;
+  margin-right: 180px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+
+}
+
+.item {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.item-name {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.item>img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.formf {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.form-answer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 200px;
+}
+
+#submit-button {
+  width: 100%;
+}
+
+#asma,
+#ttl,
+#pesan-ini {
+  width: 300px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+#messagepage {
+  padding-bottom: 35px;
+}
+
+footer {
+  text-align: right;
+  padding: 20px;
+  background-color: black;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  display: flex;
+  flex: 1;
+  color: white;
+  justify-content: center;
+}
+
+.footer1>a>img {
+  width: 20px;
+  height: 20px;
+}
